@@ -63,6 +63,8 @@ Public Class SteamAppInfoBase
 		'steamAppInfos.Add(anAppInfo)
 		anAppInfo = New ZombiePanicSourceSteamAppInfo()
 		steamAppInfos.Add(anAppInfo)
+		anAppInfo = New HuntDownTheFreemanAppInfo()
+		steamAppInfos.Add(anAppInfo)
 
 		Return steamAppInfos
 	End Function
